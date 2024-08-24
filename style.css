@@ -1,0 +1,136 @@
+
+
+
+/* Media query  start*/
+
+@media screen and (max-width: 1200px) {
+
+    .header-link__social {
+        display: none;
+    }
+
+    .header-social__mobile {
+        display: block;
+    }
+
+    .header-content__nav {
+        display: none;
+    }
+
+    .header-banner__titles {
+        width: 70%;
+    }
+
+    .header-title {
+        width: 41%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .guitars-card {
+        overflow-x: scroll;
+    }
+
+    .guitars-card::-webkit-scrollbar {
+        display: none;
+    }
+
+    .guitars-card__item {
+        width: 40%;
+        flex-shrink: 0;
+    }
+
+    .lesson-card__mobile {
+        display: none;
+    }
+
+    .lesson-card__bottom .lessons-card__box,
+    .lessons-card__box {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .header-title {
+        font-size: 32px;
+        text-align: center;
+        width: 45%;
+        margin: 100px auto 100px;
+    }
+
+    .header-banner {
+        padding: 18px 0;
+    }
+
+    .header-banner__title {
+        font-size: 21px;
+    }
+
+    .header-banner__subtitle {
+        font-size: 12px;
+    }
+
+    .guitars-card {
+        overflow-x: none;
+        flex-wrap: wrap;
+        row-gap: 36px;
+        justify-content: center;
+    }
+
+    .guitars-card__item {
+        width: 90%;
+        flex-shrink: 0;
+    }
+
+    .guitars-item__image {
+        margin-top: -30px;
+    }
+
+    .guitars-title,
+    .lessons-title {
+        font-size: 24px;
+    }
+
+    .lesson-card__bottom .lessons-card__box,
+    .lessons-card__box {
+        width: 100%;
+    }
+
+    .lesson-card__top,
+    .lesson-card__bottom {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+    .lesson-card__mobile {
+        display: block;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-service__item {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-service-item__mobile {
+        display: none;
+    }
+
+    .footer-content__logo {
+        display: none;
+    }
+
+    .footer-bottom__text {
+        text-align: center;
+    }
+
+}
+
+/* Media query  end*/
